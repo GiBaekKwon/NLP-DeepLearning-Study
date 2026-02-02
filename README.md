@@ -7,5 +7,4 @@ nlp 그룹스터디 기록 공간입니다.
 - **3주차:** Chatbot with Deep Learning
 - **4주차:** Sequence to Sequence, Attention Mechanism
 - **5주차:** Attention Mechanism
-- **6주차:**Transformer & BERT
-  
+- **6주차:** Transformer & BERT
