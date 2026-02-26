@@ -24,7 +24,9 @@
 - 임베딩: Token, Segment, Position 임베딩의 세 가지 정보를 합쳐 단어의 의미와 위치, 문장 간 관계를 모두 고려합니다.
 
 4. 어텐션 스코어 및 메커니즘의 확장트랜스포머의 어텐션은 주로 Scaled Dot-Product Attention을 사용합니다.
-- 식: $$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
+$$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
 - Q, K$의 내적 값을 스케일링($\sqrt{d_k}$)하여 소프트맥스를 취함으로써, 특정 값이 너무 커져 그래디언트가 소실되는 문제를 방지하고 효율적인 학습을 가능하게 합니다.
 
 5. 느낌점
